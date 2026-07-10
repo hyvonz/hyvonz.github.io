@@ -1,0 +1,151 @@
+# -------------------------------
+# 基础外观
+# -------------------------------
+
+nav:
+  logo:
+  display_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+# 首页顶部图
+index_img: /img/background.jpeg
+
+# 默认文章顶部图
+default_top_img: /img/background.jpeg
+
+# 头像
+avatar:
+  img: /img/avatar.jpg
+  effect: false
+
+# 文章封面
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+  default_cover:
+    - /img/default-cover.jpg
+
+# -------------------------------
+# 侧边栏
+# -------------------------------
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: 计算机科学与技术专业本科生
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/hyvonz
+  card_announcement:
+    enable: true
+    content: 欢迎来到 Hyvonz's Little World
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 20
+    color: false
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order:
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order:
+
+# -------------------------------
+# 文章页
+# -------------------------------
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+# -------------------------------
+# 代码块
+# -------------------------------
+
+highlight_theme: light
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: false
+code_word_wrap: true
+
+# -------------------------------
+# 搜索与体验
+# -------------------------------
+
+local_search:
+  enable: true
+  preload: false
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+rightside_scroll_percent: true
+copy:
+  enable: true
+  copyright:
+    enable: false
+
+# -------------------------------
+# 页脚
+# -------------------------------
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: 'By Heven'
+  copyright: true
