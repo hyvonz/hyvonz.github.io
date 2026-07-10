@@ -110,6 +110,28 @@ post_meta:
     label: true
 
 # -------------------------------
+# 数学公式
+# -------------------------------
+
+math:
+  # 可选：mathjax / katex
+  use: mathjax
+
+  # true：所有页面都加载 MathJax
+  # false：只在 Front-matter 中声明 mathjax: true 的文章加载
+  per_page: false
+
+  # 公式过宽时是否隐藏横向滚动条
+  hide_scrollbar: false
+
+  mathjax:
+    # 是否启用公式右键菜单
+    enableMenu: true
+
+    # 公式编号：all / ams / none
+    tags: none
+
+# -------------------------------
 # 代码块
 # -------------------------------
 
